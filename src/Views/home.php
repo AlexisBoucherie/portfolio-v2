@@ -10,10 +10,10 @@
         </div>
         <div class="side">
             <h2 class="job">Développeur Web</h2>
-            <p class="catchphrase">"Passionné par le jeu de rôle, les voyages et les langues vivantes, je mets aujourd'hui ma curiosité et ma créativité au service des langages du Web."</p>
-            <a href="#contacts"><span class="btn">Contactez-moi !</span></a>
+            <p class="catchphrase">"Passionné par le jeu de rôle, les voyages et les langues vivantes, je mets
+                aujourd'hui ma curiosité et ma créativité au service des langages du Web."</p>
+            <a href="contacts"><span class="btn">Contactez-moi !</span></a>
         </div>
-    </div>
     </div>
 </main>
 

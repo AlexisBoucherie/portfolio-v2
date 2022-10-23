@@ -13,8 +13,8 @@ switch ($parsed_url) {
     case '/about':
         $appController->about();
         break;
-    case '/projects':
-        $appController->projects();
+    case '/achievements':
+        $appController->achievements();
         break;
     case '/contacts':
         $appController->contacts();

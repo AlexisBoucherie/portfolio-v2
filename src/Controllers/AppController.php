@@ -20,7 +20,7 @@ class AppController {
     /**
      * @return void
      */
-    public function projects():void
+    public function achievements():void
     {
         require "../src/Views/projects.php";
     }

@@ -132,7 +132,7 @@ h2 {
     width: 175px;
     height: 175px;
     margin: 10px auto;
-    background-image: url('../../../public/assets/img/profilpic-round-mobile.png');
+    background-image: url('../assets/img/profilpic-round-mobile.png');
     background-position: center;
     background-size: cover;
     border-radius: 50%;
