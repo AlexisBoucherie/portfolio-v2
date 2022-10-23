@@ -1,0 +1,461 @@
+/* BODY */
+
+body {
+    background: rgb(189,195,199);
+    background: linear-gradient(90deg, rgba(189,195,199,1) 0%, rgb(57, 81, 104) 100%);
+    padding: 5px 10px;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+/* --- HEADER --- */
+
+h1 {
+    color: rgb(28, 42, 54);
+    font-size: 1.3em;
+    margin-left: 5px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Sidenav menu */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: rgb(57, 81, 104);
+    padding-top: 60px;
+    transition: left 0.5s ease;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 0.9em;
+    color: rgba(255,230,190,1);
+    display: block;
+    transition: 0.3s;
+}
+
+/* Active class */
+.sidenav.active {
+    left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+/* Menu btn */
+
+.bi {
+    font-size: 1.1em;
+}
+
+.bi-list {
+    display: block;
+    text-align: center;
+    line-height: 1.1em;
+    width: 1.1em;
+    color: rgba(255,230,190,1);
+    background-color: rgb(57, 81, 104);
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px #000000;
+}
+
+/* --- MAIN --- */
+
+main {
+    text-align: center;
+}
+
+h3 {
+    color: rgba(255,230,190,1);
+    text-shadow: 1px 1px 2px black;
+    font-size: 1em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+.box {
+    box-shadow: 2px 2px 5px #000000;
+}
+
+/* home */
+
+.home {
+    height: auto;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: rgba(255,230,190,1);
+    text-shadow: 1px 1px 2px black;
+    margin: 10px 0 0 0;
+}
+
+.home .profile-pic-mobile {
+    display: block;
+    width: 175px;
+    height: 175px;
+    margin: 10px auto;
+    background-image: url('../../../public/assets/img/profilpic-round-mobile.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px;
+}
+
+.home p {
+    width: 80vw;
+    text-align: center;
+    font-size: 1em;
+}
+
+.home a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn {
+    background-color: rgba(255, 230, 190, 0.5);
+    color: #43485B;
+    padding: 5px 10px;
+    width: 60vw;
+    max-width: 250px;
+    border-radius: 20px;
+}
+
+/* !! Nav version tablette et desktop, cachée en version mobile !! */
+
+.highres-nav {
+    display: none;
+}
+
+.profile-pic {
+    display: none;
+}
+
+/* Achievements */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.achievements .aster {
+    font-size: 0.7em;
+    text-align: center;
+    font-style: italic;
+}
+
+.project {
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px auto ;
+}
+
+.project h5, .project ul {
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.project ul {
+    text-indent: -3px;
+}
+
+.project-pic {
+    display: block;
+    width: 80vw;
+    height: 35vh;
+    max-height: 300px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h4 {
+    color: rgba(255,230,190,1);
+    font-weight: 400;
+}
+
+h5 {
+    text-decoration: underline;
+}
+
+.pic1 {
+    background-image: url('../../../public/assets/img/cvfdpmobile.jpeg');
+}
+
+.pic2 {
+    background-image: url('../../../public/assets/img/krokettesduyoukimobile.jpeg');
+}
+
+.pic3 {
+    background-image: url('../../../public/assets/img/spvarsmobile.jpeg');
+}
+
+.pic4 {
+    background-image: url('../../../public/assets/img/calculatormobile.jpeg');
+}
+
+.pic5 {
+    background-image: url('../../../public/assets/img/dicegamemobile.jpeg');
+}
+
+.pic6 {
+    background-image: url('../../../public/assets/img/todolistmobile.jpeg');
+}
+
+/* Contacts */
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contacts h3 {
+    width: 90vw;
+}
+
+.contacts p {
+    text-align: left;
+}
+
+.contacts a {
+    color: rgba(255,230,190,1);
+}
+
+/* FOOTER */
+
+footer a, footer p {
+    text-align: center;
+    font-size: 0.7em;
+}
+
+footer a {
+    display: block;
+    margin: 5px auto;
+    color: rgba(255,230,190,1);
+}
+
+@media screen and (min-width: 672px) {
+
+    /* BODY */
+
+    body {
+        margin: 5px 10px ;
+    }
+
+    /* HEADER */
+
+    /* !! Nav version mobile, cachée en version tablette et desktop !! */
+    #openBtn {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .highres-nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav li {
+        font-size: 0.8em;
+        list-style-type: none;
+    }
+
+    nav a {
+        color: rgba(255,230,190,1);
+        text-decoration: none;
+        margin-right: 10px;
+        padding: 2px 4px;
+        box-shadow: 0 0 2px black;
+    }
+
+    nav a:hover {
+        background-color: rgb(57, 81, 104);
+        color: rgba(255,230,190,1);
+    }
+
+    h1 {
+        font-size: 0.9em;
+    }
+
+    /* Home */
+
+    .side {
+        justify-content: space-around;
+    }
+
+    .side p {
+        font-size: 1.1em;
+    }
+
+    /* Achievements */
+
+    .project {
+        margin: 10px;
+        max-width: 30vw;
+        background-color: rgba(189,195,199,0.5);
+    }
+
+    .project .project-pic {
+        width: 29vw;
+        max-height: 600px;
+    }
+
+    .pic1 {
+        background-image: url('../../../public/assets/img/cvfdp.jpeg');
+    }
+
+    .pic2 {
+        background-image: url('../../../public/assets/img/krokettesduyouki.jpeg');
+    }
+
+    .pic3 {
+        background-image: url('../../../public/assets/img/spvars.jpeg');
+    }
+
+    .pic4 {
+        background-image: url('../../../public/assets/img/calculator.jpeg');
+    }
+
+    .pic5 {
+        background-image: url('../../../public/assets/img/dicegame.jpeg');
+    }
+
+    .pic6 {
+        background-image: url('../../../public/assets/img/todolist.jpeg');
+    }
+
+}
+
+@media screen and (min-width: 990px) {
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    /* Homepage */
+
+    .home .profile-pic-mobile {
+        display: none;
+    }
+
+    .home {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+        gap: 0 0;
+        grid-template-areas:
+        "profile-pic side";
+    }
+
+    .profile-pic {
+        grid-area: profile-pic;
+        display: block;
+        margin: auto 0;
+    }
+
+    .profile-pic img {
+        width: auto;
+        height: 70vh;
+        max-width: 60vw;
+        background-color: rgba(189,195,199,0.5);
+        border-radius: 20px;
+    }
+
+    .side {
+        grid-area: side;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        height: 75vh;
+        padding: 20px 0;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .catchphrase {
+        max-width: 40vw;
+        font-size: 1.5em;
+    }
+
+    .btn {
+        font-size: 1.3em;
+        max-width: 300px;
+    }
+
+    .btn:hover {
+        background-color: rgba(255,230,190,1);
+    }
+
+    /* Homepage */
+
+    .project {
+        margin: 10px;
+        max-width: 25vw;
+    }
+
+    .project .project-pic {
+        width: 22vw;
+    }
+}
+
+@media screen and (min-width: 1296px) {
+
+    body {
+        max-width: 1296px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

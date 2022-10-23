@@ -1,8 +1,43 @@
 <?php
 
 class AppController {
+    /**
+     * @return void
+     */
     public function home():void
     {
-        require "../src/Views/_home.php";
+        require "../src/Views/home.php";
+    }
+
+    /**
+     * @return void
+     */
+    public function about():void
+    {
+        require "../src/Views/about.php";
+    }
+
+    /**
+     * @return void
+     */
+    public function projects():void
+    {
+        require "../src/Views/projects.php";
+    }
+
+    /**
+     * @return void
+     */
+    public function contacts():void
+    {
+        require "../src/Views/contacts.php";
+    }
+    
+    /**
+     * @return void 
+     */
+    public function pageNotFound()
+    {
+        require "../src/Views/page-not-found.php";
     }
 }
