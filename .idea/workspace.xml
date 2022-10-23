@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec93891d-0012-4b9a-bc16-6c021d636b11" name="Changes" comment="" />
+    <list default="true" id="ec93891d-0012-4b9a-bc16-6c021d636b11" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Models/Project.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/_home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/AppController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +28,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
   <component name="ProjectId" id="2GVJFmppQTNZjs2Gv0g3bPD8puC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,7 +39,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/alexis/workspace/wild/quest-twig",
+    "last_opened_file_path": "/home/alexis/workspace/portfolio-v2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -41,6 +59,7 @@
       <updated>1666467716876</updated>
       <workItem from="1666467718215" duration="67000" />
       <workItem from="1666512751981" duration="53000" />
+      <workItem from="1666520391659" duration="3300000" />
     </task>
     <servers />
   </component>
