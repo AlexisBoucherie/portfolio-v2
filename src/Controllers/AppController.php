@@ -1,10 +1,11 @@
 <?php
 
-class AppController {
+class AppController
+{
     /**
      * @return void
      */
-    public function home():void
+    public function home(): void
     {
         require "../src/Views/home.php";
     }
@@ -12,7 +13,7 @@ class AppController {
     /**
      * @return void
      */
-    public function about():void
+    public function about(): void
     {
         require "../src/Views/about.php";
     }
@@ -20,7 +21,7 @@ class AppController {
     /**
      * @return void
      */
-    public function achievements():void
+    public function achievements(): void
     {
         require "../src/Views/projects.php";
     }
@@ -28,13 +29,13 @@ class AppController {
     /**
      * @return void
      */
-    public function contacts():void
+    public function contacts(): void
     {
         require "../src/Views/contacts.php";
     }
-    
+
     /**
-     * @return void 
+     * @return void
      */
     public function pageNotFound()
     {

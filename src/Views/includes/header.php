@@ -22,10 +22,10 @@
     <div id="mySidenav" class="sidenav">
         <i id="closeBtn" class="bi bi-x-circle close"></i>
         <ul id="closeAction">
-            <li><a href="#"><i class="bi bi-house"></i> Accueil</a></li>
-            <li><a href="#"><i class="bi bi-file-earmark-person"></i> À propos</a></li>
-            <li><a href="#"><i class="bi bi-card-checklist"></i> Réalisations</a></li>
-            <li><a href="#"><i class="bi bi-envelope"></i> Contacts</a></li>
+            <li><a href="home"><i class="bi bi-house"></i> Accueil</a></li>
+            <li><a href="about"><i class="bi bi-file-earmark-person"></i> À propos</a></li>
+            <li><a href="achievements"><i class="bi bi-card-checklist"></i> Réalisations</a></li>
+            <li><a href="contacts"><i class="bi bi-envelope"></i> Contacts</a></li>
         </ul>
     </div>
 

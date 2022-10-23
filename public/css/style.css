@@ -1,8 +1,8 @@
 /* BODY */
 
 body {
-    background: rgb(189,195,199);
-    background: linear-gradient(90deg, rgba(189,195,199,1) 0%, rgb(57, 81, 104) 100%);
+    background: rgb(189, 195, 199);
+    background: linear-gradient(90deg, rgba(189, 195, 199, 1) 0%, rgb(57, 81, 104) 100%);
     padding: 5px 10px;
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
@@ -52,7 +52,7 @@ header {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 0.9em;
-    color: rgba(255,230,190,1);
+    color: rgba(255, 230, 190, 1);
     display: block;
     transition: 0.3s;
 }
@@ -80,7 +80,7 @@ header {
     text-align: center;
     line-height: 1.1em;
     width: 1.1em;
-    color: rgba(255,230,190,1);
+    color: rgba(255, 230, 190, 1);
     background-color: rgb(57, 81, 104);
     border-radius: 50%;
     box-shadow: 4px 4px 4px #000000;
@@ -93,7 +93,7 @@ main {
 }
 
 h3 {
-    color: rgba(255,230,190,1);
+    color: rgba(255, 230, 190, 1);
     text-shadow: 1px 1px 2px black;
     font-size: 1em;
 }
@@ -122,7 +122,7 @@ p {
 h2 {
     font-size: 1.2em;
     font-weight: 400;
-    color: rgba(255,230,190,1);
+    color: rgba(255, 230, 190, 1);
     text-shadow: 1px 1px 2px black;
     margin: 10px 0 0 0;
 }
@@ -188,17 +188,9 @@ h2 {
 .project {
     padding: 10px;
     border-radius: 20px;
-    margin: 10px auto ;
+    margin: 10px auto;
 }
 
-.project h5, .project ul {
-    text-align: left;
-    font-size: 0.8em;
-}
-
-.project ul {
-    text-indent: -3px;
-}
 
 .project-pic {
     display: block;
@@ -212,36 +204,8 @@ h2 {
 }
 
 h4 {
-    color: rgba(255,230,190,1);
+    color: rgba(255, 230, 190, 1);
     font-weight: 400;
-}
-
-h5 {
-    text-decoration: underline;
-}
-
-.pic1 {
-    background-image: url('../../../public/assets/img/cvfdpmobile.jpeg');
-}
-
-.pic2 {
-    background-image: url('../../../public/assets/img/krokettesduyoukimobile.jpeg');
-}
-
-.pic3 {
-    background-image: url('../../../public/assets/img/spvarsmobile.jpeg');
-}
-
-.pic4 {
-    background-image: url('../../../public/assets/img/calculatormobile.jpeg');
-}
-
-.pic5 {
-    background-image: url('../../../public/assets/img/dicegamemobile.jpeg');
-}
-
-.pic6 {
-    background-image: url('../../../public/assets/img/todolistmobile.jpeg');
 }
 
 /* Contacts */
@@ -261,7 +225,7 @@ h5 {
 }
 
 .contacts a {
-    color: rgba(255,230,190,1);
+    color: rgba(255, 230, 190, 1);
 }
 
 /* FOOTER */
@@ -274,19 +238,17 @@ footer a, footer p {
 footer a {
     display: block;
     margin: 5px auto;
-    color: rgba(255,230,190,1);
+    color: rgba(255, 230, 190, 1);
 }
 
 @media screen and (min-width: 672px) {
 
     /* BODY */
-
     body {
-        margin: 5px 10px ;
+        margin: 5px 10px;
     }
 
     /* HEADER */
-
     /* !! Nav version mobile, cachée en version tablette et desktop !! */
     #openBtn {
         display: none;
@@ -312,7 +274,7 @@ footer a {
     }
 
     nav a {
-        color: rgba(255,230,190,1);
+        color: rgba(255, 230, 190, 1);
         text-decoration: none;
         margin-right: 10px;
         padding: 2px 4px;
@@ -321,7 +283,7 @@ footer a {
 
     nav a:hover {
         background-color: rgb(57, 81, 104);
-        color: rgba(255,230,190,1);
+        color: rgba(255, 230, 190, 1);
     }
 
     h1 {
@@ -329,7 +291,6 @@ footer a {
     }
 
     /* Home */
-
     .side {
         justify-content: space-around;
     }
@@ -339,40 +300,15 @@ footer a {
     }
 
     /* Achievements */
-
     .project {
         margin: 10px;
         max-width: 30vw;
-        background-color: rgba(189,195,199,0.5);
+        background-color: rgba(189, 195, 199, 0.5);
     }
 
     .project .project-pic {
         width: 29vw;
         max-height: 600px;
-    }
-
-    .pic1 {
-        background-image: url('../../../public/assets/img/cvfdp.jpeg');
-    }
-
-    .pic2 {
-        background-image: url('../../../public/assets/img/krokettesduyouki.jpeg');
-    }
-
-    .pic3 {
-        background-image: url('../../../public/assets/img/spvars.jpeg');
-    }
-
-    .pic4 {
-        background-image: url('../../../public/assets/img/calculator.jpeg');
-    }
-
-    .pic5 {
-        background-image: url('../../../public/assets/img/dicegame.jpeg');
-    }
-
-    .pic6 {
-        background-image: url('../../../public/assets/img/todolist.jpeg');
     }
 
 }
@@ -384,7 +320,6 @@ footer a {
     }
 
     /* Homepage */
-
     .home .profile-pic-mobile {
         display: none;
     }
@@ -408,7 +343,7 @@ footer a {
         width: auto;
         height: 70vh;
         max-width: 60vw;
-        background-color: rgba(189,195,199,0.5);
+        background-color: rgba(189, 195, 199, 0.5);
         border-radius: 20px;
     }
 
@@ -436,11 +371,10 @@ footer a {
     }
 
     .btn:hover {
-        background-color: rgba(255,230,190,1);
+        background-color: rgba(255, 230, 190, 1);
     }
 
     /* Homepage */
-
     .project {
         margin: 10px;
         max-width: 25vw;
