@@ -5,12 +5,14 @@ class Project
     private string $projectName;
     private string $projectImg;
     private string $projectDescription;
+    private string $projectURL;
 
-    public function __construct(string $projectName, string $projectImg, string $projectDescription)
+    public function __construct(string $projectName, string $projectImg, string $projectDescription, string $projectURL)
     {
         $this->projectName = $projectName;
         $this->projectImg = $projectImg;
         $this->projectDescription = $projectDescription;
+        $this->projectURL = $projectURL;
     }
 
     // GETTERS
@@ -39,6 +41,14 @@ class Project
         return $this->projectDescription;
     }
 
+    /**
+     * @return string
+     */
+    public function getProjectURL(): string
+    {
+        return $this->projectURL;
+    }
+
     // SETTERS
 
     /**
@@ -63,5 +73,13 @@ class Project
     public function setProjectDescription(string $projectDescription): void
     {
         $this->projectDescription = $projectDescription;
+    }
+
+    /**
+     * @param string $projectURL
+     */
+    public function setProjectURL(string $projectURL): void
+    {
+        $this->projectURL = $projectURL;
     }
 }

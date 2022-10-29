@@ -6,12 +6,19 @@ require '../src/Models/Project.php';
 
 <!-- PAGE CONTENT -->
 <?php
-// Pour générer du faux contenu
-$description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-$project1 = new Project('CV en ligne', 'https://loremflickr.com/320/240/work', $description);
-$project2 = new Project('Wizards - JS Dice Game', 'https://loremflickr.com/320/240/videogame', $description);
-$project3 = new Project('Projet 3', 'https://loremflickr.com/320/240/computer', $description);
-$projectArray = [$project1, $project2, $project3];
+// Pour générer du contenu
+$projectArray = [
+    $project1 = new Project(
+        'CV en ligne',
+        '/assets/img/cv-rpg.png',
+        "Ce projet de CV décalé m'a permis d'allier deux passions : le jeu de rôle et le codage. Il s'agit ici d'un CV qui s'inspire du design des feuilles de personnage, style Donjons & Dragons. Il allie un design plutôt simple construit avec grid et flexbox.",
+        'https://alexis-boucherie-cv.herokuapp.com/'),
+    $project2 = new Project(
+        'Wizards - JS Dice Game',
+        '/assets/img/js-dice-game.png',
+        "Ce jeu de dés, réalisé en JavaSript Vanilla et pensé mobile first, fait s'affronter deux joueurs qui incarnent des mages. Le premier qui élimine son adversaire a gagné ! Ce projet m'a -entre autres- permis de m'entraîner à maîtriser le DOM.",
+        'http://js-dice-game-wizard-battle.herokuapp.com/')
+]
 ?>
 
 <main>
@@ -22,7 +29,7 @@ $projectArray = [$project1, $project2, $project3];
             <?php foreach ($projectArray as $project): ?>
                 <div class="project box">
                     <h4><?= $project->getProjectName(); ?></h4>
-                    <a href="#">
+                    <a href="<?= $project->getProjectURL() ?>">
                         <img src="<?= $project->getProjectImg(); ?>" class="project-pic pic1" alt="Project picture">
                     </a>
                     <p><?= $project->getProjectDescription(); ?></p>
