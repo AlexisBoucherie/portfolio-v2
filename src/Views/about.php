@@ -14,6 +14,7 @@
         <p>Fin 2021, après une belle carrière de près de dix ans dans le tourisme, j'ai entrepris de revenir vers
             l'informatique pour de bon et de me former d'abord à distance, avec le groupe Studi, puis aujourd'hui en
             présentiel avec la Wild Code School de Bordeaux.</p>
+        <p>Malgré mon penchant pour le back-end, j'aime toucher un peu à tout et je serai ravi d'intégrer une équipe dès février 2023 !</p>
     </div>
 </main>
 

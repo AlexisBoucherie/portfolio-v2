@@ -6,6 +6,7 @@ body {
     padding: 5px 10px;
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
+    min-height: 100%;
 }
 
 p {
@@ -230,15 +231,13 @@ h4 {
 
 /* FOOTER */
 
-footer a, footer p {
-    text-align: center;
-    font-size: 0.7em;
+footer {
+    margin: 3em auto 1em;
 }
 
-footer a {
-    display: block;
-    margin: 5px auto;
-    color: rgba(255, 230, 190, 1);
+footer p {
+    text-align: center;
+    font-size: 0.7em;
 }
 
 @media screen and (min-width: 672px) {
@@ -277,8 +276,9 @@ footer a {
         color: rgba(255, 230, 190, 1);
         text-decoration: none;
         margin-right: 10px;
-        padding: 2px 4px;
+        padding: 0.2em 0.4em;
         box-shadow: 0 0 2px black;
+        border-radius: 10px;
     }
 
     nav a:hover {
@@ -291,6 +291,7 @@ footer a {
     }
 
     /* Home */
+
     .side {
         justify-content: space-around;
     }
@@ -326,7 +327,7 @@ footer a {
 
     .home {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 30% 70%;
         grid-template-rows: 1fr;
         gap: 0 0;
         grid-template-areas:
@@ -340,19 +341,15 @@ footer a {
     }
 
     .profile-pic img {
-        width: auto;
-        height: 70vh;
-        max-width: 60vw;
+        width: 30vw;
+        height: auto;
+        max-width: 450px;
         background-color: rgba(189, 195, 199, 0.5);
         border-radius: 20px;
     }
 
     .side {
         grid-area: side;
-        display: flex;
-        flex-direction: column;
-        align-content: space-around;
-        height: 75vh;
         padding: 20px 0;
     }
 
