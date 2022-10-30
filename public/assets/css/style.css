@@ -133,7 +133,7 @@ h2 {
     width: 175px;
     height: 175px;
     margin: 10px auto;
-    background-image: url('../assets/img/profilpic-round-mobile.png');
+    background-image: url('../img/profilpic-round-mobile.png');
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -200,6 +200,11 @@ h2 {
     height: 35vh;
     max-height: 300px;
     margin: 0 auto;
+}
+
+.project p {
+    padding: 0.5em;
+    line-height: 1.3em;
 }
 
 h4 {

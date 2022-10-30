@@ -11,7 +11,7 @@ $projectArray = [
     $project1 = new Project(
         'CV en ligne',
         '/assets/img/cv-rpg.png',
-        "Ce projet de CV décalé m'a permis d'allier deux passions : le jeu de rôle et le codage. Il s'agit ici d'un CV qui s'inspire du design des feuilles de personnage, style Donjons & Dragons. Il allie un design plutôt simple construit avec grid et flexbox.",
+        "Ce projet de CV décalé m'a permis d'allier deux passions : le jeu de rôle et le codage. Il s'agit ici d'un CV qui s'inspire du design des feuilles de personnage, style Donjons & Dragons. Il présente un design plutôt simple construit avec grid et flexbox.",
         'https://alexis-boucherie-cv.herokuapp.com/'),
     $project2 = new Project(
         'Wizards - JS Dice Game',
@@ -24,7 +24,7 @@ $projectArray = [
 <main>
     <div class="achievements" id="achievements">
         <h3>Mes réalisations</h3>
-        <p class="aster">* cliquez sur la photo d'un projet pour y accéder</p>
+        <p class="aster">* cliquez sur l'image d'un projet pour y accéder directement</p>
         <div class="container">
             <?php foreach ($projectArray as $project): ?>
                 <div class="project box">
