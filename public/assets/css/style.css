@@ -18,7 +18,7 @@ p {
 h1 {
     color: rgb(28, 42, 54);
     font-size: 1.3em;
-    margin-left: 5px;
+    margin-left: 0.5em;
     text-align: center;
 }
 
@@ -215,9 +215,10 @@ h4 {
 /* Contacts */
 
 .contacts {
+    min-height: 60vh;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .contacts h3 {
@@ -295,12 +296,25 @@ footer p {
 
     /* Home */
 
+    .home {
+        height: 70vh;
+    }
+
     .side {
-        justify-content: space-around;
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-evenly;
     }
 
     .side p {
         font-size: 1.1em;
+    }
+
+    /* About */
+
+    .about {
+        height: 65vh;
     }
 
     /* Achievements */
@@ -314,6 +328,21 @@ footer p {
         height: auto;
     }
 
+    /* Contacts */
+
+
+    .contacts {
+        justify-content: space-around;
+    }
+    .contacts h3 {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .contact-me, .find-me {
+        width: 60vw;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 990px) {
@@ -372,6 +401,24 @@ footer p {
     .btn:hover {
         background-color: rgba(255, 230, 190, 1);
     }
+
+    /* Contacts */
+
+    .contacts h3 {
+        width: 100%;
+    }
+
+    .contact-me, .find-me {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .contact-me p, .find-me p{
+        padding: 0 1em;
+    }
+
 }
 
 @media screen and (min-width: 1296px) {
