@@ -17,7 +17,12 @@ $projectArray = [
         'Wizards - JS Dice Game',
         '/assets/img/js-dice-game.png',
         "Ce jeu de dés, réalisé en JavaSript Vanilla et pensé mobile first, fait s'affronter deux joueurs qui incarnent des mages. Le premier qui élimine son adversaire a gagné ! Ce projet m'a -entre autres- permis de m'entraîner à maîtriser le DOM.",
-        'http://js-dice-game-wizard-battle.herokuapp.com/')
+        'http://js-dice-game-wizard-battle.herokuapp.com/'),
+    $project3 = new Project(
+        'Random Map generator',
+        '/assets/img/random-map.png',
+        "Ce projet réalisé essentiellement en PHP est un générateur aléatoire de cartes. L'utilisateur choisit les dimensions de la carte, les types de terrains voulus, et le tour est joué !",
+        'https://random-map-gen.herokuapp.com/')
 ]
 ?>
 
