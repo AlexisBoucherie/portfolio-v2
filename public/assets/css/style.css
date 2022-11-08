@@ -168,7 +168,7 @@ h2 {
 .btn {
     background-color: rgba(255, 230, 190, 0.5);
     color: #43485B;
-    padding: 5px 10px;
+    padding: 0.4em 0.8em;
     width: 60vw;
     max-width: 250px;
     border-radius: 20px;
@@ -302,12 +302,14 @@ footer p {
         background-color: rgb(57, 81, 104);
         color: rgba(255, 230, 190, 1);
         border: 2px solid rgb(57, 81, 104);
+        transition: 0.4s;
     }
 
     nav .active-page {
         background-color: rgb(57, 81, 104);
         color: rgba(255, 230, 190, 1);
         border: 2px solid rgb(57, 81, 104);
+        border-radius: 10px;
     }
 
     h1 {
@@ -418,12 +420,13 @@ footer p {
     }
 
     .btn {
-        font-size: 1.3em;
+        font-size: 1.1em;
         max-width: 300px;
     }
 
     .btn:hover {
         background-color: rgba(255, 230, 190, 1);
+        transition: 0.4s;
     }
 
     /* Contacts */
