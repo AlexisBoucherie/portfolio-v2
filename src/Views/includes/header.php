@@ -38,10 +38,10 @@
     <!-- nav tablette et desktop -->
     <nav class="highres-nav">
         <ul>
-            <li><a href="home"<?php if ($activePage === 'home') { echo " class='active-page'"; } ?>>Accueil</a></li>
-            <li><a href="about"<?php if ($activePage === 'about') { echo " class='active-page'"; } ?>>À propos</a></li>
-            <li><a href="achievements"<?php if ($activePage === 'achievements') { echo " class='active-page'"; } ?>>Réalisations</a></li>
-            <li><a href="contacts"<?php if ($activePage === 'contacts') { echo " class='active-page'"; } ?>>Contacts</a></li>
+            <li><a href="home"<?php if ($activePage === 'home') { echo " class='active-page'"; } ?> target="_blank">Accueil</a></li>
+            <li><a href="about"<?php if ($activePage === 'about') { echo " class='active-page'"; } ?> target="_blank">À propos</a></li>
+            <li><a href="achievements"<?php if ($activePage === 'achievements') { echo " class='active-page'"; } ?>target="_blank">Réalisations</a></li>
+            <li><a href="contacts"<?php if ($activePage === 'contacts') { echo " class='active-page'"; } ?> target="_blank">Contacts</a></li>
         </ul>
     </nav>
 </header>
