@@ -33,7 +33,7 @@
         <i class="bi bi-list"></i>
     </a>
 
-    <h1>Alexis Boucherie</h1>
+    <h1><a href="home">Alexis Boucherie</a></h1>
 
     <!-- nav tablette et desktop -->
     <nav class="highres-nav">

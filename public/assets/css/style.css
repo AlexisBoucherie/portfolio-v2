@@ -16,10 +16,14 @@ p {
 /* --- HEADER --- */
 
 h1 {
-    color: rgb(28, 42, 54);
     font-size: 1.3em;
     margin-left: 0.5em;
     text-align: center;
+}
+
+h1 a {
+    color: rgb(28, 42, 54);
+    text-decoration: none;
 }
 
 header {
@@ -272,7 +276,7 @@ footer p {
     }
 
     nav li {
-        font-size: 0.8em;
+        font-size: 0.7em;
         list-style-type: none;
     }
 
@@ -280,14 +284,16 @@ footer p {
         color: rgba(255, 230, 190, 1);
         text-decoration: none;
         margin-right: 10px;
-        padding: 0.2em 0.4em;
-        box-shadow: 0 0 2px black;
+        padding: 0.5em 1em;
+        border: 2px solid rgba(255, 230, 190, 1);
         border-radius: 10px;
+        white-space: nowrap;
     }
 
     nav a:hover {
         background-color: rgb(57, 81, 104);
         color: rgba(255, 230, 190, 1);
+        border: 2px solid rgb(57, 81, 104);
     }
 
     h1 {
@@ -348,7 +354,7 @@ footer p {
 @media screen and (min-width: 990px) {
 
     h1 {
-        font-size: 1.7em;
+        font-size: 1.6em;
     }
 
     /* Homepage */
@@ -363,6 +369,10 @@ footer p {
         gap: 0 0;
         grid-template-areas:
         "profile-pic side";
+    }
+
+    nav li {
+        font-size: 0.8em;
     }
 
     .profile-pic {
