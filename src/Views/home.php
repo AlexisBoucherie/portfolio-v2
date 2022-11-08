@@ -1,5 +1,8 @@
 <!-- HEAD + NAV -->
-<?php $pageTitle = 'Accueil' ?>
+<?php
+$pageTitle = 'Accueil';
+$activePage = 'home';
+?>
 
 <?php include 'includes/header.php'; ?>
 

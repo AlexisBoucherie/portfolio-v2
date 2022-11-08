@@ -36,11 +36,11 @@ header {
 /* Sidenav menu */
 .sidenav {
     height: 100%;
-    width: 250px;
+    width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
-    left: -250px;
+    left: 100%;
     background-color: rgb(57, 81, 104);
     padding-top: 60px;
     transition: left 0.5s ease;
@@ -55,11 +55,19 @@ header {
 /* Sidenav menu links */
 .sidenav a {
     padding: 8px 8px 8px 32px;
+    margin-bottom: 1em;
+    text-align: center;
     text-decoration: none;
-    font-size: 0.9em;
+    font-size: 1.2em;
     color: rgba(255, 230, 190, 1);
     display: block;
     transition: 0.3s;
+}
+
+.active-page {
+    border: 2px solid rgba(255, 230, 190, 1);
+    background-color: #43485B;
+    border-radius: 20px;
 }
 
 /* Active class */
@@ -291,6 +299,12 @@ footer p {
     }
 
     nav a:hover {
+        background-color: rgb(57, 81, 104);
+        color: rgba(255, 230, 190, 1);
+        border: 2px solid rgb(57, 81, 104);
+    }
+
+    nav .active-page {
         background-color: rgb(57, 81, 104);
         color: rgba(255, 230, 190, 1);
         border: 2px solid rgb(57, 81, 104);

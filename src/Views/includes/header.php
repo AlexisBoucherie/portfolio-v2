@@ -22,10 +22,10 @@
     <div id="mySidenav" class="sidenav">
         <i id="closeBtn" class="bi bi-x-circle close"></i>
         <ul id="closeAction">
-            <li><a href="home"><i class="bi bi-house"></i> Accueil</a></li>
-            <li><a href="about"><i class="bi bi-file-earmark-person"></i> À propos</a></li>
-            <li><a href="achievements"><i class="bi bi-card-checklist"></i> Réalisations</a></li>
-            <li><a href="contacts"><i class="bi bi-envelope"></i> Contacts</a></li>
+            <li><a href="home"<?php if ($activePage === 'home') { echo " class='active-page'"; } ?>><i class="bi bi-house"></i> Accueil</a></li>
+            <li><a href="about"<?php if ($activePage === 'about') { echo " class='active-page'"; } ?>><i class="bi bi-file-earmark-person"></i> À propos</a></li>
+            <li><a href="achievements"<?php if ($activePage === 'achievements') { echo " class='active-page'"; } ?>><i class="bi bi-card-checklist"></i> Réalisations</a></li>
+            <li><a href="contacts"<?php if ($activePage === 'contacts') { echo " class='active-page'"; } ?>><i class="bi bi-envelope"></i> Contacts</a></li>
         </ul>
     </div>
 
@@ -38,10 +38,10 @@
     <!-- nav tablette et desktop -->
     <nav class="highres-nav">
         <ul>
-            <li><a href="home">Accueil</a></li>
-            <li><a href="about">À propos</a></li>
-            <li><a href="achievements">Réalisations</a></li>
-            <li><a href="contacts">Contacts</a></li>
+            <li><a href="home"<?php if ($activePage === 'home') { echo " class='active-page'"; } ?>>Accueil</a></li>
+            <li><a href="about"<?php if ($activePage === 'about') { echo " class='active-page'"; } ?>>À propos</a></li>
+            <li><a href="achievements"<?php if ($activePage === 'achievements') { echo " class='active-page'"; } ?>>Réalisations</a></li>
+            <li><a href="contacts"<?php if ($activePage === 'contacts') { echo " class='active-page'"; } ?>>Contacts</a></li>
         </ul>
     </nav>
 </header>

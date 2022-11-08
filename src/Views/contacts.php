@@ -1,5 +1,8 @@
 <!-- HEAD + NAV -->
-<?php $pageTitle = 'Contacts' ?>
+<?php
+$pageTitle = 'Contacts';
+$activePage = 'contacts';
+?>
 
 <?php include 'includes/header.php'; ?>
 

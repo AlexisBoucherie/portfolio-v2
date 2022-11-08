@@ -1,5 +1,8 @@
 <!-- HEAD + NAV -->
-<?php $pageTitle = 'À propos' ?>
+<?php
+$pageTitle = 'À propos';
+$activePage = 'about';
+?>
 
 <?php include 'includes/header.php'; ?>
 
