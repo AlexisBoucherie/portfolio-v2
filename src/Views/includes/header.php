@@ -38,10 +38,12 @@
     <!-- nav tablette et desktop -->
     <nav class="highres-nav">
         <ul>
-            <li><a href="home"<?php if ($activePage === 'home') { echo " class='active-page'"; } ?> target="_blank">Accueil</a></li>
-            <li><a href="about"<?php if ($activePage === 'about') { echo " class='active-page'"; } ?> target="_blank">À propos</a></li>
-            <li><a href="achievements"<?php if ($activePage === 'achievements') { echo " class='active-page'"; } ?>target="_blank">Réalisations</a></li>
-            <li><a href="contacts"<?php if ($activePage === 'contacts') { echo " class='active-page'"; } ?> target="_blank">Contacts</a></li>
+            <!-- la page active génère une classe "active-page" qui est stylisée en css -->
+            <!-- si on ouvre le lien actif, il se charge dans la page courante, sinon il s'ouvre dans un nouvel onglet -->
+            <li><a href="home"<?php if ($activePage === 'home') { echo " class='active-page'"; } if ($activePage !== 'home') { echo "target='_blank'"; } ?>>Accueil</a></li>
+            <li><a href="about"<?php if ($activePage === 'about') { echo " class='active-page'";}  if ($activePage !== 'about') { echo "target='_blank'"; } ?>>À propos</a></li>
+            <li><a href="achievements"<?php if ($activePage === 'achievements') { echo " class='active-page'"; }  if ($activePage !== 'achievements') { echo "target='_blank'"; } ?>>Réalisations</a></li>
+            <li><a href="contacts"<?php if ($activePage === 'contacts') { echo " class='active-page'"; } if ($activePage !== 'home') { echo "target='_blank'"; } ?>>Contacts</a></li>
         </ul>
     </nav>
 </header>
