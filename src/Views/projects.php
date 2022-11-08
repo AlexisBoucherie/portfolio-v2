@@ -1,4 +1,6 @@
 <!-- HEAD + NAV -->
+<?php $pageTitle = 'Réalisations' ?>
+
 <?php
 include 'includes/header.php';
 require '../src/Models/Project.php';

@@ -8,7 +8,7 @@ $appController = new AppController();
 switch ($parsed_url) {
     case '/':
     case '/home':
-        $appController->home();
+    $appController->home();
         break;
     case '/about':
         $appController->about();

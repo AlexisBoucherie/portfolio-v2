@@ -1,4 +1,6 @@
 <!-- HEAD + NAV -->
+<?php $pageTitle = 'À propos' ?>
+
 <?php include 'includes/header.php'; ?>
 
 <!-- PAGE CONTENT -->

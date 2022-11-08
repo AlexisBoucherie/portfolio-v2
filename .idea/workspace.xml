@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec93891d-0012-4b9a-bc16-6c021d636b11" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/portfolio-v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio-v2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/AppController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/contacts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/page-not-found.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/page-not-found.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/projects.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +40,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="2GVJFmppQTNZjs2Gv0g3bPD8puC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,7 +55,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/alexis/workspace/wild",
+    "last_opened_file_path": "/home/alexis/workspace/portfolio-v2",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -76,6 +90,7 @@
       <workItem from="1666512751981" duration="53000" />
       <workItem from="1666520391659" duration="15734000" />
       <workItem from="1666547580008" duration="8650000" />
+      <workItem from="1667935688315" duration="1151000" />
     </task>
     <servers />
   </component>

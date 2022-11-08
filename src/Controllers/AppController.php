@@ -29,7 +29,7 @@ class AppController
     /**
      * @return void
      */
-    public function contacts(): void
+    public function contacts(): string
     {
         require "../src/Views/contacts.php";
     }

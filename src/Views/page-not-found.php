@@ -1,4 +1,6 @@
 <!-- HEAD + NAV -->
+<?php $pageTitle = '404, not found' ?>
+
 <?php include 'includes/header.php'; ?>
 
 <!-- PAGE CONTENT -->
