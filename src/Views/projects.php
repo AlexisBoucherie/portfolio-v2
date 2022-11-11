@@ -21,7 +21,7 @@ $projectArray = [
     $project2 = new Project(
         'Wizards - JS Dice Game',
         '/assets/img/js-dice-game.png',
-        "Ce jeu de dés, réalisé en JavaSript Vanilla et pensé mobile first, fait s'affronter deux joueurs qui incarnent des mages. Le premier qui élimine son adversaire a gagné ! Ce projet m'a -entre autres- permis de m'entraîner à maîtriser le DOM.",
+        "Ce jeu de dés, réalisé en JavaScript Vanilla et pensé mobile first, fait s'affronter deux joueurs qui incarnent des mages. Le premier qui élimine son adversaire a gagné ! Ce projet m'a -entre autres- permis de m'entraîner à maîtriser le DOM.",
         'http://js-dice-game-wizard-battle.herokuapp.com/'),
     $project3 = new Project(
         'Random Map generator',
@@ -39,7 +39,7 @@ $projectArray = [
             <?php foreach ($projectArray as $project): ?>
                 <div class="project box">
                     <h4><?= $project->getProjectName(); ?></h4>
-                    <a href="<?= $project->getProjectURL() ?>">
+                    <a href="<?= $project->getProjectURL() ?>" target='_blank'>
                         <img src="<?= $project->getProjectImg(); ?>" class="project-pic pic1" alt="Project picture">
                     </a>
                     <p><?= $project->getProjectDescription(); ?></p>
